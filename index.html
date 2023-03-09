@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body style="background-color: white;">
-    <main style="background-color: pink; width: 50%; margin-left: 25%; margin-top: 10%;">
-        <div>
+    <main style="display: inline-block; width: 50%; margin-left: 25%; margin-top: 10%;">
+        <div style="display: inline-block; background-color: yellow; width: 30%; margin-top: 10px;">
             <h1 style="font-size: 70px; color: blue;">404</h1>
             <p style="font-size: 40px; color: grey; text-transform: uppercase; font-weight: bold;">Page not found</p>
             <a href="https://www.google.com">Go to home</a>
         </div>
-        <img src="./ufo.jpg" alt="ufo lekste">
+        <img style="width: 60%; float: right;" src="./ufo.jpg" alt="ufo lekste">
     </main>
 </body>
 
@@ -38,11 +38,11 @@
     background-color: white;
 
     Tarpusavio elementu atsistumimas:
-    margin: 10%;            visomis kryptimis aplink
-    margin-top: 10%         atsistumimas nuo virsaus
-    margin-right: 10%       atsistumimas is desines
-    margin-bottom: 10%      atsistumimas nuo apacios
-    margin-left: 10%        atsistumimas is kaires
+    margin: 10%;                visomis kryptimis aplink
+    margin-top: 10%             atsistumimas nuo virsaus
+    margin-right: 10%           atsistumimas is desines
+    margin-bottom: 10%          atsistumimas nuo apacios
+    margin-left: 10%            atsistumimas is kaires
 
     TEKSTAI:
     font-size: 40px;
@@ -50,4 +50,14 @@
     font-weight: bold;
     color: red;
     text-transform: uppercase;
+
+    ELEMENTU ATVAIZDAVIMO BUDAS:
+    display: block;             default - is virsaus i apacia
+    display: inline;            zodziai tekste (eiluteje rasosi iki galo ir persikelia)
+    display: inline-block;      elementas platus tiek, kiek jame yra turinio, bet ne platesni nei tevas
+
+    PRIVERSTINIS ELEMENTU SUSTUMIMAS:
+    float: left;                prisistumia prie kairio krasto be jokio tarpelio (jei kitas elementas nėra float, tai peršoka jį)
+    float: right;               prisistumia prie desinio krasto be jokio tarpelio (jei kitas elementas nėra float, tai peršoka jį)
+
 -->
