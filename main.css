@@ -2,26 +2,26 @@ body {
     background-color: white;
 }
     
-main {
+.main-content {
     display: inline-block;
     margin-left: 25%;
     margin-top: 10%;
 }
 
-div {
+.left-column {
     display: inline-block;
     width: 40%;
     margin-top: 80px;
 }
 
-h1 {
+.title {
     font-size: 90px;
     color: blue;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.description {
     font-size: 25px;
     color: black;
     margin: 0;
@@ -30,7 +30,7 @@ p {
     font-weight: bold;
 }
 
-a {
+.btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: blue;
@@ -43,7 +43,7 @@ a {
     display: inline-block;
 }
 
-img {
+.main-image {
     width: 60%;
     float: right;
 }
