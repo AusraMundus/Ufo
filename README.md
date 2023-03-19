@@ -73,4 +73,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 🔗 Other resources
 
-There are no resources for this project.
+There are no other resources for this project.
