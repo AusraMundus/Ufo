@@ -3,7 +3,7 @@
 
 # Ufo
 
-_404 page design project_
+_Simple page design project_
 
 <br>
 
